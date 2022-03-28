@@ -2,8 +2,8 @@
     <div class="tsView">
         <div>学习</div>
         <ul>
-            <li></li>
-            <li></li>
+            <li>我爱你啊</li>
+            <li>稀罕你啊</li>
             <li></li>
             <li></li>
             <li></li>
