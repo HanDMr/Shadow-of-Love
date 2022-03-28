@@ -1,5 +1,18 @@
 <template>
     <div class="tsView">
+        <div>学习</div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
         <div class="a">
             我要学习ts
             <el-button>Default</el-button>
@@ -7,6 +20,9 @@
             <el-button type="success">Success</el-button>
             <el-button type="info">Info</el-button>
             <el-button type="warning">Warning</el-button>
+        </div>
+        <div>
+            我要学习传参方法
         </div>
     </div>
 </template>
@@ -37,7 +53,7 @@ console.log(result3)
 .tsView {
     width: 100%;
     height: 100%;
-    background: #4e5f4d;
+    background: #FFF;
     .a {
         color: red;
     }
