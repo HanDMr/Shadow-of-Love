@@ -1,5 +1,5 @@
 <template>
-    <div class="tsView">
+    <div class="ts-study">
         <div>学习</div>
         <ul>
             <li>我爱你啊</li>
@@ -31,7 +31,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'TsView',
+    name: 'tsStudy',
     setup() {
     function buildName(firstName: string, lastName?: string) {
         return firstName + " " + lastName;
@@ -50,10 +50,13 @@ console.log(result3)
 </script>
 
 <style lang="scss">
-.tsView {
+.ts-study {
     width: 100%;
     height: 100%;
     background: #FFF;
+    li {
+        list-style: none;
+    }
     .a {
         color: red;
     }

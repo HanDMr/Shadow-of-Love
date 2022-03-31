@@ -1,6 +1,6 @@
 <template>
-    <div class="father">
-        我是父组件
+    <div class="my-map">
+        我是子组件
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'Father',
+    name: 'myMap',
     setup() {
         return {
         }
@@ -17,7 +17,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-.father {
+.my-map {
     width: 100%;
     height: 100%;
     background: #4e5f4d;
